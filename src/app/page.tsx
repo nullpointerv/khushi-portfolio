@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -106,16 +106,16 @@ return (
             <Card className="overflow-hidden">
               <CardContent className="p-4 sm:p-6 bg-gradient-to-br from-white to-purple-50 dark:from-gray-800 dark:to-indigo-900">
                 <p className="mb-4 text-sm sm:text-base">
-                  As a third-year BCA student at CMR University, I'm on an exciting journey to become a full-stack developer. My passion for technology and its potential to transform lives drives me to constantly expand my skills and knowledge.
+                  As a third-year BCA student at CMR University, I&apos;m on an exciting journey to become a full-stack developer. My passion for technology and its potential to transform lives drives me to constantly expand my skills and knowledge.
                 </p>
                 <p className="mb-4 text-sm sm:text-base">
-                  My tech journey began with mastering the fundamentals of programming and has evolved to developing e-commerce solutions using WordPress. I'm currently diving deep into frontend frameworks, aiming to bridge the gap between design and functionality.
+                  My tech journey began with mastering the fundamentals of programming and has evolved to developing e-commerce solutions using WordPress. I&apos;m currently diving deep into frontend frameworks, aiming to bridge the gap between design and functionality.
                 </p>
                 <p className="mb-4 text-sm sm:text-base">
                   With a strong foundation in web technologies and a certification in Python from NPTEL IIT Madras, I bring a blend of theoretical knowledge and practical skills to the table. My experience as a web developer intern at Picraft, where I built an e-commerce platform for 3D printers, has given me valuable insights into real-world project development and client interactions.
                 </p>
                 <p className="text-sm sm:text-base">
-                  I'm an active participant in the tech community, contributing to open-source projects during Hacktoberfest and constantly seeking new challenges. I'm eager to leverage my skills in innovative projects and continue growing as a developer in this ever-evolving tech landscape.
+                  I&apos;m an active participant in the tech community, contributing to open-source projects during Hacktoberfest and constantly seeking new challenges. I&apos;m eager to leverage my skills in innovative projects and continue growing as a developer in this ever-evolving tech landscape.
                 </p>
               </CardContent>
             </Card>
@@ -266,7 +266,7 @@ return (
             <Card className="overflow-hidden">
               <CardContent className="p-4 sm:p-6 bg-gradient-to-br from-indigo-50 to-purple-100 dark:from-gray-800 dark:to-indigo-900">
                 <p className="mb-4 text-sm sm:text-base">
-                  I'm always excited to connect with fellow tech enthusiasts, potential employers, or anyone interested in web development and emerging technologies. 
+                  I&apos;m always excited to connect with fellow tech enthusiasts, potential employers, or anyone interested in web development and emerging technologies. 
                   Feel free to reach out for collaborations, opportunities, or just a friendly chat about the latest in tech!
                 </p>
                 <Button className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white w-full sm:w-auto" asChild>
